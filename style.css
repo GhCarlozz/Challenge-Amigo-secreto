@@ -125,6 +125,34 @@ button {
     background-color: #a1a1a1;
 }
 
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.button-draw, .button-reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-draw img, .button-reset img {
+    margin-right: 10px; }
+
+.button-draw {
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+}
+
+.button-reset {
+    background-color: #f44336; /* Color rojo */
+    color: white;
+}
+
 /* Listas */
 ul {
     list-style-type: none;
@@ -159,4 +187,9 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+.name-list {
+    list-style-type: disc; /* Muestra viñetas */
+    padding-left: 20px; /* Espacio a la izquierda para las viñetas */
 }

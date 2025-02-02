@@ -24,6 +24,8 @@ function agregarAmigo(){
         amigos.push(nombre);
         //Se limpia la caja de texto por una cadena vacía
         document.getElementById("amigo").value = "";
+        //se actualiza la lista de amigos
+        actualizarListaAmigos();
         asignarTextoElemento('h2', `!Amigo "${nombre}" agregado con éxito! Puedes seguir agregando amigos.`);
         console.log(amigos);
 
@@ -36,13 +38,14 @@ function actualizarListaAmigos(){
     //se limpia la lista de amigos
     lista.innerHTML = '';
     //itera sobre el arreglo
-    for (let i; i < amigos.length; i++){
+    for (let i = 0; i < amigos.length; i++){
         //agregar un elemento a la lista
         let li = document.createElement("li");
         //Asignar el texto al elemento de la lista
         li.textContent = amigos[i];
         //agregar el elemento a la lista
         lista.appendChild(li);
+        
     }
 
 }
@@ -60,8 +63,18 @@ function sortearAmigo(){
         let amigoSorteado = document.getElementById("resultado");
         //asignar el nombre del amigo sorteado
         amigoSorteado.innerHTML = amigos[numeroAleatorio];
-        document.getElementById("botonadd").disabled = true;
-        
+}
+
+function nuevoSorteo(){
+    //se limpia el array de amigos
+    amigos = [];
+    //se limpia la lista de amigos
+    actualizarListaAmigos();
+    //se limpia el resultado
+    asignarTextoElemento('h2', "¡Listo para un nuevo sorteo!");
+    document.getElementById("resultado").innerHTML = "";
+    console.log(amigos);
+
 }
 
 

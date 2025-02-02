@@ -15,7 +15,6 @@ function agregarAmigo(){
     //se valida que el campo no esté vacío
     if(nombre.trim() === ""){
         alert("Por favor, inserte un nombre.");
-        console.log(nombre);
         
     } else if(amigos.includes(nombre)){
         alert("Vaya, parece que este amigo ya fue agregado, ingresa otro nombre.");
@@ -27,7 +26,6 @@ function agregarAmigo(){
         //se actualiza la lista de amigos
         actualizarListaAmigos();
         asignarTextoElemento('h2', `!Amigo "${nombre}" agregado con éxito! Puedes seguir agregando amigos.`);
-        console.log(amigos);
 
     }
 }
@@ -75,7 +73,6 @@ function nuevoSorteo(){
     //se limpia el resultado
     asignarTextoElemento('h2', "¡Listo para un nuevo sorteo!");
     document.getElementById("resultado").innerHTML = "";
-    console.log(amigos);
 
 }
 

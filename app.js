@@ -63,7 +63,9 @@ function sortearAmigo(){
         let amigoSorteado = document.getElementById("resultado");
         //asignar el nombre del amigo sorteado
         amigoSorteado.innerHTML = amigos[numeroAleatorio];
-}
+        //modificar el texto del resultado
+        document.getElementById("resultado").innerHTML = `¡El amigo sorteado es: ${amigos[numeroAleatorio]}!`;
+    }
 
 function nuevoSorteo(){
     //se limpia el array de amigos

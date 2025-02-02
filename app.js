@@ -2,6 +2,13 @@
 let amigos = [];
 let numeroAleatorio = 0;
 
+function asignarTextoElemento(elemento, texto){
+    //Obtener el elemento HTML
+    let elementoHTML = document.querySelector(elemento);
+    elementoHTML.innerHTML = texto;
+    return;
+}
+
 function agregarAmigo(){
     //capturar el valor de entrada
     let nombre = document.getElementById("amigo").value;
@@ -10,11 +17,14 @@ function agregarAmigo(){
         alert("Por favor, inserte un nombre.");
         console.log(nombre);
         
-    } else {
+    } else if(amigos.includes(nombre)){
+        alert("Vaya, parece que este amigo ya fue agregado, ingresa otro nombre.");
+        } else {
         //se agrega el nombre al array amigos
         amigos.push(nombre);
         //Se limpia la caja de texto por una cadena vacía
         document.getElementById("amigo").value = "";
+        asignarTextoElemento('h2', `!Amigo "${nombre}" agregado con éxito! Puedes seguir agregando amigos.`);
         console.log(amigos);
 
     }
@@ -44,10 +54,13 @@ function sortearAmigo(){
     } else 
         numeroAleatorio = Math.floor(Math.random() * amigos.length);
         console.log(numeroAleatorio);
+        //asignar el texto al elemento h2
+        asignarTextoElemento('h2', "Y el amigo sorteado es.... ");
         //obtener el nombre del amigo sorteado
         let amigoSorteado = document.getElementById("resultado");
         //asignar el nombre del amigo sorteado
         amigoSorteado.innerHTML = amigos[numeroAleatorio];
+        document.getElementById("botonadd").disabled = true;
         
 }
 

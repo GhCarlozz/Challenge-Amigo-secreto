@@ -4,6 +4,7 @@
 ![AmigoSS](https://github.com/user-attachments/assets/e5c4e4fa-005d-4ec9-914a-a2ce75d75ace)
 
 En este desafío, se desarrolla una aplicación como un reto por parte de Alura, que permita a los usuarios ingresar nombres de amigos en una lista para luego realizar un sorteo aleatorio y determinar quién es el "amigo secreto".
+In this challenge, an application is developed as a challenge by Alura, which allows users to enter names of friends in a list and then perform a random draw to determine who the “secret friend” is.
 ______
 
 ## 🛠️ Funcionalidades  
@@ -32,7 +33,7 @@ _______
 ## 🌐 Página 
 Puedes acceder a la página para visualizar una demostración por medio del siguiente link (No responsive aún):
 
-https://ghcarlozz.github.io/Challenge-Amigo-secreto/
+🎉 **[Ir a la página de Amigo Secreto](https://lgarciabode.github.io/amigo-secreto/)**  
 ______
 
 ## 🚀 Descargar

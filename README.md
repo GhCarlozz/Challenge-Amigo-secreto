@@ -33,7 +33,7 @@ _______
 ## 🌐 Página 
 Puedes acceder a la página para visualizar una demostración por medio del siguiente link (No responsive aún):
 
-🎉 **[Ir a la página de Amigo Secreto](https://lgarciabode.github.io/amigo-secreto/)**  
+🎉 **[Ir a la página de Amigo Secreto](https://ghcarlozz.github.io/Challenge-Amigo-secreto/)**  
 ______
 
 ## 🚀 Descargar

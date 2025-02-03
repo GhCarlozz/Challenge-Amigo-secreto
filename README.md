@@ -30,7 +30,7 @@ ______
 
 _______
 ## 🌐 Página 
-Puedes acceder a la página para visualizar una demostración por medio del siguiente link:
+Puedes acceder a la página para visualizar una demostración por medio del siguiente link (No responsive aún):
 
 https://ghcarlozz.github.io/Challenge-Amigo-secreto/
 ______

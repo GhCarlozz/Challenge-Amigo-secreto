@@ -15,7 +15,8 @@ function agregarAmigo(){
     //se valida que el campo no esté vacío
     if(nombre.trim() === ""){
         alert("Por favor, inserte un nombre.");
-        
+    } else if(!/^[a-zA-ZáéíóúÁÉÍÓÚ\s]*$/.test(nombre)){
+        alert("Por favor, ingrese un nombre válido.");
     } else if(amigos.includes(nombre)){
         alert("Vaya, parece que este amigo ya fue agregado, ingresa otro nombre.");
         } else {

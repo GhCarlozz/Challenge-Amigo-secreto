@@ -18,3 +18,23 @@ ______
 - ![CSS](https://img.shields.io/badge/CSS-grey?style=plastic&logo=css3) **Estilos visuales para la página**.
 - ![JS](https://img.shields.io/badge/JS-grey?style=plastic&logo=javascript) **Utilizado para las funciones del programa y la lógica del mismo**
 - ![git](https://img.shields.io/badge/git-grey?style=plastic&logo=git) **Uso de los commits a lo largo del challenge**
+______
+## 👁️ Vista previa
+
+
+
+
+_______
+## 🌐 Página 
+Puedes acceder a la página patra visualizar una demostración por medio del siguiente link:
+
+https://ghcarlozz.github.io/Challenge-Amigo-secreto/
+______
+
+## 🚀 Descargar
+1. Clona este repositorio
+2. Abre el archivo `index.html` en tu navegador
+3. Agrega nombres y presiona el botón "Añadir"
+4. Presiona el botón sortear para escoger un amigo al azar.
+5. ¡Disfruta!
+

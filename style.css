@@ -193,3 +193,17 @@ ul {
     list-style-type: disc; /* Muestra viñetas */
     padding-left: 20px; /* Espacio a la izquierda para las viñetas */
 }
+
+@media (max-width:775px ){
+
+    .img-amigo-secreto{
+        width: 50%;
+    }
+
+    .main-title{
+        padding: auto;
+    }
+
+    
+
+}
